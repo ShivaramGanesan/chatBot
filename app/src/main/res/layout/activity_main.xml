@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="@color/nokiaBlue"
+    tools:context="com.example.shiva.jarvis.MainActivity">
+
+    <LinearLayout
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:text="NOKIA"
+    android:id="@+id/nokia_title"
+    android:textColor="#fff"
+    android:gravity="center"
+    android:textSize="30dp"
+    />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+
+        <EditText
+            android:drawableLeft="@drawable/account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="USERNAME"
+            android:id="@+id/username"
+            android:backgroundTint="#fff"
+            android:textColor="#fff"
+            android:textColorHint="@color/grey"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="PASSWORD"
+            android:drawableLeft="@drawable/lock"
+            android:backgroundTint="#fff"
+            android:textColor="#fff"
+            android:id="@+id/password"
+            android:textColorHint="@color/grey"
+            android:singleLine="true"
+            android:inputType="textPassword"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="20dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#fff"
+            android:text="Login"
+            android:textColor="@color/colorPrimary"
+            android:textSize="22dp"
+            android:elevation="20dp"
+            android:id="@+id/loginbutton"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="No account yet? Create one"
+            android:padding="20dp"
+            android:id="@+id/signup"
+            android:textColor="#fff"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

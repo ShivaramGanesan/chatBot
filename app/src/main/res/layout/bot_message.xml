@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="17dp"
+    >
+<LinearLayout
+    android:layout_alignParentLeft="true"
+    android:padding="3dp"
+    android:background="@drawable/bot_mesaseg_round"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TextView
+        android:id="@+id/bot_time"
+        android:text="1.00"
+
+        android:textColor="@color/colorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:gravity="center"
+        android:textSize="17dp"
+        android:text="Under Construction"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimary"
+        android:padding="5dp"
+        android:id="@+id/bot_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+</RelativeLayout>

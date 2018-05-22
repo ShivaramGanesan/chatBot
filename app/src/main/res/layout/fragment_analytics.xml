@@ -1,0 +1,61 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.shiva.jarvis.AnalyticsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        >
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:id="@+id/viewCard"
+
+        app:cardCornerRadius="10dp"
+        app:cardUseCompatPadding="true"
+        app:cardBackgroundColor="@color/google_yellow"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="view"
+            android:textColor="#fff"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:id="@+id/viewid"
+            />
+
+    </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            app:cardCornerRadius="10dp"
+            app:cardBackgroundColor="@color/green1"
+            android:id="@+id/productCard"
+            app:cardUseCompatPadding="true"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="predict"
+                android:layout_gravity="center"
+                android:id="@+id/productid"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                />
+
+        </android.support.v7.widget.CardView>
+    </LinearLayout>
+
+
+</FrameLayout>
